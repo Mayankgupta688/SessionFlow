@@ -6,6 +6,9 @@
 4. Composing Struct having same function Name
 5. Overriding Composed Level Function in the Parent Function
 
+6. Creating Composed Object
+7. Accessing Composed Object Properties
+
 */
 
 package main
