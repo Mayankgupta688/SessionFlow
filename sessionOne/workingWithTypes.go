@@ -5,7 +5,7 @@
 3. Adding value of wrong type to the variable
 4. Implicit Conversion posibilities
 5. Explicit Type conversions "strconv"
-6. Using "reflect" package to determine Types
+6. Using "reflect.TypeOf" package to determine Types
 
 */
 

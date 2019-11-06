@@ -8,6 +8,7 @@
 6. Using "os.Getenv" in the value assignment
 7. Using "init()" function
 8. Function Level Variable must be used, no restriction on Package Level for error
+9. Working with constant keyword "const"
 
 */
 
@@ -15,12 +16,15 @@ package main
 
 import (
 	"fmt"
-	"os"
 )
 
 var Name string
 
-var pathData = os.Getenv("Path")
+var pathData string
+
+func init() {
+	pathData = "Sample"
+}
 
 func main() {
 	Name := "Mayank"
