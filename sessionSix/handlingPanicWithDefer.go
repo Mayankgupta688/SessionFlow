@@ -1,6 +1,7 @@
 /*
 
 1. Defer Function called after Panic
+2. Add multiple defers...
 
 */
 
