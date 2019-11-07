@@ -5,6 +5,7 @@
 3. Slices are passed by reference
 4. Slice can be a sub part of an array
 5. Output for "fmt.Println" for slice is not starting memory reference of the Slice element
+6. Append to Slices
 
 */
 
@@ -31,4 +32,12 @@ func main() {
 	sliceData = append(sliceData, 8)
 	fmt.Println(cap(sliceData))
 	fmt.Println(len(sliceData))
+
+	UpdateSlice(sliceData)
+	fmt.Println(sliceData[0])
+	fmt.Println(sliceData)
+}
+
+func UpdateSlice(sliceData []int) {
+	sliceData[0] = 20
 }

@@ -4,7 +4,7 @@
 2. List of Values of different types... not possible
 3. Passing Arrays to the function
 4. Iteration in Array.. index, val := rangeArrayObject
-5. Initial Values of Array proiperties..
+5. Initial Values of Array properties..
 6. Array without difining initial size in declaration...
 7. Length is same as that used in initialization..
 
