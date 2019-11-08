@@ -39,6 +39,5 @@ func AddEmployeeData(ch chan int) {
 	for i := 0; i < len(internalData); i++ {
 		fmt.Println(processId + " " + internalData[i].Name)
 	}
-
 	<-ch
 }
