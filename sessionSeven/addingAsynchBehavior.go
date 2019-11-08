@@ -12,6 +12,7 @@ import (
 )
 
 func main() {
+
 	fmt.Println("Starting Main Thread...")
 
 	go IterateData()
