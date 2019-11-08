@@ -2,6 +2,7 @@
 
 1. Creating Mutex
 2. Restricting Developer to access some part of function concurrently
+3. Create Mutex without WaitGroup
 
 */
 
