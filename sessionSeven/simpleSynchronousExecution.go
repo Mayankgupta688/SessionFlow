@@ -1,3 +1,9 @@
+/*
+
+1. Creating Simple Synchronous Function
+
+*/
+
 package main
 
 import (

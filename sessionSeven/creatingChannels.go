@@ -15,7 +15,7 @@ import "fmt"
 
 func main() {
 	fmt.Println("Main Execution Started..")
-	channelImplementation := make(chan int, 1)
+	channelImplementation := make(chan int)
 	channelImplementation <- 10
 	<-channelImplementation
 	fmt.Println("Main Execution Stopped..")
